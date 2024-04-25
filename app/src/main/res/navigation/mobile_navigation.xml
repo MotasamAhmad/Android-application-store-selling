@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/shopping">
+
+    <fragment
+        android:id="@+id/shopping"
+        android:name="com.example.usedstore.ui.home.StoreFragment"
+        android:label="@string/title_store"
+        tools:layout="@layout/store_fragment" />
+
+    <fragment
+        android:id="@+id/add_product"
+        android:name="com.example.usedstore.ui.AddProduct.AddProduct"
+        android:label="@string/title_add_product"
+        tools:layout="@layout/add_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.usedstore.ui.myAds.myAdsFragment"
+        android:label="@string/title_myAds"
+        tools:layout="@layout/my_ads_fragment" />
+</navigation>

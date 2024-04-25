@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Show_item">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layoutDirection="ltr">
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/shape5" />
+
+        <ImageView
+            android:id="@+id/imgv_sh_img"
+            android:layout_width="match_parent"
+            android:layout_height="201dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape4"
+            android:clickable="false"
+            android:forceHasOverlappingRendering="false"
+            android:src="@drawable/user3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/shape2"
+                android:padding="4dp"
+                android:paddingStart="20dp"
+                android:text="Name"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_sh_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:paddingStart="30dp"
+                android:text="Dell G7" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/shape5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/shape2"
+                android:padding="4dp"
+                android:paddingStart="20dp"
+                android:text="Price"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_sh_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:paddingStart="30dp"
+                android:text="$ 350"
+                app:drawableLeftCompat="@drawable/baseline_attach_money_24" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/shape5" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/shape2"
+                android:padding="4dp"
+                android:paddingStart="20dp"
+                android:text="Description"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_sh_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:paddingStart="30dp"
+                android:text="Cor i5 \n1T HDD \n8gb ram \n15.6 inch\n4 gb graphics card  " />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/shape5" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/shape2"
+                android:padding="4dp"
+                android:paddingStart="20dp"
+                android:text="Location"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_sh_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:paddingStart="30dp"
+                android:text="Yemen / Sana / 50 Street " />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/shape5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/shape2"
+                android:padding="4dp"
+                android:paddingStart="20dp"
+                android:text="To connect"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_sh_connectNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:paddingStart="30dp"
+                android:text="+967 772549226 " />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/shape5" />
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:paddingStart="20dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="5dp"
+            android:text="call Now"
+            app:icon="@android:drawable/stat_sys_phone_call" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
